@@ -8,8 +8,10 @@
 /* general CSS */
 
 body {
-    background-image: url("./photos/background.png");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/photos/background.png");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Header Section */
