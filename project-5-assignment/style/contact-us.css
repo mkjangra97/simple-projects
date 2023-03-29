@@ -40,13 +40,13 @@ form {
     padding-left: 12px;
     margin-bottom: 9px;
     border: 2px solid white;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-right: 9px;
-    background-color: #88898adc;
+    background-color: #95eadedc;;
 }
 
 .form-section-style-1 input {
-    background-color: #c1aebdc4;
+    background-color: #95eadedc;;
 }
 
 .form-section-style-textarea textarea{
