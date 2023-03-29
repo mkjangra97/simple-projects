@@ -22,6 +22,7 @@ header {
 
 .hamburger {
     display: none;
+    cursor: pointer;
 }
 
 .hamburger img{
