@@ -1,0 +1,146 @@
+/* Content Section 1 */
+
+.content-section-1 {
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: #394560a2;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    border-radius: 60px;
+}
+
+/* Left Side Content Section 1 */
+
+.left-side-text {
+    width: 100%;
+}
+
+.left-side-text h1, .contact-form-text h1{
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+
+.left-side-text h1 span {
+    color: #d9e621;
+}
+
+
+.p-style-1, .p-style-2, .contact-form-text p {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.p-style-2, .contact-form-text p {
+    color: rgb(8, 192, 161);
+    margin-bottom: 10px;
+}
+
+.left-side-text button {
+    border: none;
+    padding: 7px 40px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(to right , rgba(28, 145, 241, 0.87), rgba(47, 12, 172, 0.703));
+    text-align: center;
+    border-radius: 10px;
+    font-size: 35px;
+    transition: background-image 0.4s, color 0.4s;
+}
+
+.left-side-text button:hover {
+    background-image: linear-gradient(to right , rgba(227, 241, 28, 0.87), rgba(56, 247, 18, 0.703));
+    color: black;
+}
+
+/* Right Side Content Section  1 */
+
+.right-side-img img {
+    width: 40vw;
+}
+
+/* Media query Contect Section 1 */
+
+@media screen and (max-width: 1425px) {
+
+    .left-side-text h1{
+        font-weight: 700;
+        font-size: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    .left-side-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left-side-text button {
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(to right , rgba(28, 145, 241, 0.87), rgba(47, 12, 172, 0.703));
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1397px) {
+
+    .left-side-text h1{
+        font-weight: 700;
+        font-size: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    .left-side-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left-side-text button {
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(to right , rgba(28, 145, 241, 0.87), rgba(47, 12, 172, 0.703));
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .left-side-text h1{
+        font-weight: 700;
+        font-size: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    .left-side-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left-side-text button {
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(to right , rgba(28, 145, 241, 0.87), rgba(47, 12, 172, 0.703));
+    text-align: center;
+    border-radius: 10px;
+    font-size: 26px;
+    }
+}

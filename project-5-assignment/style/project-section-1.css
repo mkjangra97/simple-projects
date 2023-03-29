@@ -1,0 +1,117 @@
+/* Project Section 1 */
+
+.project-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Project Title */
+
+.project-title {
+    font-size: 2vw;
+    text-align: center;
+    line-height: 35px;
+}
+
+.hr-line {
+    width: 21vw;
+    height: 5px;
+    border-radius: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+/* Project Images */
+
+.project-img-sub-section {
+    margin-bottom: 20px;
+}
+
+.project-img-sub-section img {
+    width: 15vw;
+}
+.project-img-sub-section p {
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 30px;
+    border-radius: 8px;
+    outline: 2px solid white;
+    font-size: 1.3vw;
+    transition: background-color 0.5s;
+}
+
+.project-img-sub-section p:hover {
+    background-color: #135fda;
+}
+
+.project-img-sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Query For Project Section */
+
+@media screen and (max-width: 1397px) {
+    .project-img{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .project-img-sub-section img {
+        width: 300px;
+    }
+
+    .project-img-sub-section {
+        margin-top: 30px;
+    }
+
+    .project-img-sub-section p {
+    font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .project-img{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    
+.project-title {
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.hr-line {
+    width: 250px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+    .project-img-sub-section img {
+        width: 300px;
+    }
+
+    .project-img-sub-section {
+        margin-top: 30px;
+    }
+
+    .project-img-sub-section p {
+    font-size: 30px;
+    }
+}

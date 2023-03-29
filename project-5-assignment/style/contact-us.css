@@ -1,0 +1,114 @@
+/* Contact Us */
+
+form {
+    padding: 23px;
+    display: inline-block;
+    outline: 3px dotted white;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.contact-us-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #2f2f2fc4;
+    margin: 80px;
+    border-radius: 60px;
+}
+
+/* Left Content Section */
+
+.contact-form-text p {
+    padding-left: 12px;
+}
+
+.contact-form-text2 {
+    display: none;
+}
+
+/* Right Content Section */
+
+.form-section-style input, .form-section-style-1 input {
+    width: 309px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 12px;
+    margin-bottom: 9px;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    margin-right: 9px;
+    background-color: #88898adc;
+}
+
+.form-section-style-1 input {
+    background-color: #c1aebdc4;
+}
+
+.form-section-style-textarea textarea{
+    margin-bottom: 10px;
+    font-size: 19px;
+    border: 2px solid white;
+    padding: 10px 0px 0px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #95eadedc;
+}
+
+.form-section-style-button input {
+    padding: 9px 20px;
+    margin-right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* Media Query for Contact Section using some CSS */
+
+
+@media screen and (max-width: 1397px) {
+    .contact-us-section {
+        display: block;
+    } 
+
+    .contact-form-text, .content-form-right {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-form-text2 {
+    display: none;
+}
+}
+
+@media screen and (max-width: 860px) {
+
+    .contact-form-text2 {
+        display: block;
+    }
+    
+    .contact-form-text2 p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact-form-text2 a {
+        text-decoration: none;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin: auto;
+        margin-top: 12px;
+        padding: 6px;
+        border-radius: 5px;
+        width: 40%;
+        display: block;
+        background-color: rgb(12, 143, 203);
+    }
+
+    .content-form-right {
+        display: none;
+    }
+}

@@ -1,0 +1,137 @@
+header {
+    width: 100%;
+    display: flex;
+    padding: 18px 0px 10px 0px;
+    background-color: #054be2;
+    position: sticky;  
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/* Header Left Side CSS */
+
+.header-img img {
+    width: 180px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger img{
+    width: 50px;
+    vertical-align: top;
+}
+
+.header-navigation {
+    align-self: left;
+}
+
+.header-navigation ul{
+    display: flex;
+    font-size: 27px;
+    cursor: pointer;
+    column-gap: 30px;
+    font-weight: 700;
+    list-style-type: none;
+    transition: color 0.5s;
+}
+
+.header-navigation ul li:hover {
+    color: rgb(157, 248, 12);
+    text-decoration: underline;
+}
+
+/* Header Right Side CSS */
+
+.header-search-box input {
+    width: 300px;
+    height: 41px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial;
+    padding-left: 23px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lable-style {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: red;
+    padding: 9px 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.lable-style:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.author-img img{
+    width: 70px;
+    outline: 3px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.header-right-section {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Query for Header Section using some CSS */
+
+/* ------------------ Size: 1397px ------------------ */
+
+@media screen and (max-width: 1397px) {
+    .header-right-section {
+        display: none;
+    }
+}
+
+/* --------------- Size: 860px --------------------- */
+
+@media screen and (max-width: 860px) {
+
+    header {
+        display: inline-block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .hamburger {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .media-query-time {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-navigation ul, .header-right-section{
+        display: none;
+    }
+}
